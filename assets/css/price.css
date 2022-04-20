@@ -1,0 +1,497 @@
+/* -----------Подключение Comfortaa------------ */
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+/* -----------Подключение Poppins------------ */
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+/* -----------Подключение Roboto------------ */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+/* -----------Подключение Montserrat------------ */
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 1920px;
+    height: 405px;
+    background: url(../img/Login/HeaderBgModalForms.png) no-repeat center center / cover;
+}
+.header__container{
+    width: 1213px;
+    height: 40px;
+    padding: 61px 0px;
+    margin: 0px 339px 231px 368px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ----Header LOGO---- */
+.header__logo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__logo:hover{
+    transform: scale(1.2);
+}
+/* ----Header NAV---- */
+.header__nav{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 9px 0px;
+}
+.nav__item:hover{
+    border-bottom: 1px solid #FFFFFF;
+    transform: scale(1.2);
+}
+/* ----Header LOG----- */
+.header__log{
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+.log__btn{
+    width: 132px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 16px;
+    margin-right: 25px;
+}
+.log__btn:hover{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #BB6DF3;
+    background: #FFFFFF;
+    border-radius: 30px;    
+}
+/* ----PRICE__SECTION---- */
+.price__section{
+    width: 1920px;
+    height: 1279px;
+    margin-bottom: 208px;
+}
+.price__title{
+    width: 1452px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 199px 76px 269px;
+}
+.price__name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    letter-spacing: 0.405em;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.price__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    color: #3B668D;
+    margin-top: 15px;
+}
+.price__row{
+    display: flex;
+}
+.row__column1{
+    width: 450px;
+    height: 964px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    padding-top: 86px;
+    border-radius: 21px;
+    margin-left: -150px;
+    cursor: pointer;
+}
+.row__column2{
+    width: 620px;
+    height: 1002px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.row__column3{
+    width: 450px;
+    height: 807px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    padding-top: 86px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+.column__img{
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.price__btn{
+    width: 308px;
+    height: 79px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    margin: 60px 160px 47px 160px;
+}
+.price__cashback{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #567796;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column__rec{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #40BF3D;
+    margin-bottom: 13px;
+    margin-top: -250px;
+}
+.column__days{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #3B668D;
+    margin-bottom: 37px;
+}
+.column3__days{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #3B668D;
+    margin-bottom: 37px;
+    margin-top: -200px;
+}
+.column__price{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    text-align: center;
+    color: #8572FF;
+    margin-bottom: 117px;
+}
+.column__line{
+    width: 308px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+.price__section div div ul li{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #567796;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+.price__section div div ul li::after{
+    content: url(../img/index/check.svg);
+    width: 20px;
+    height: 17px;
+}
+.price__section div div ul{
+    align-self: center;
+    width: 308px;
+}
+/* ----DOWNLOAD SECTION---- */
+.download__section{
+    width: 1920px;
+    height: 409px;
+}
+.content__wrapper{
+    width: 1213px;
+    height: 100%;
+    margin: 0 auto;
+}
+.download__container{
+    width: 1920px;
+    height: 261px;
+    background: url(../img/index/Sec4Bg.png) no-repeat center center / cover;
+}
+.download__block{
+    width: 100%;
+    height: 106px;
+    display: flex;
+}
+.blocks__container{
+    display: flex;
+}
+.block__texts{
+    margin-left: 30px;
+    padding-top: 12px;
+}
+.block__number{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    color: #425B8C;   
+}
+.block__text{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 16px;
+    color: #718DC2;
+    white-space: nowrap;
+}
+.block__icon{
+    padding-top: 20px;
+    width: 74px;
+    height: 74px;
+}
+/* ----FOOTER SECTION---- */
+.footer__section{
+    width: 1920px;
+    height: 1085px;
+    background: url(../img/index/FooterBg.png) no-repeat center center / cover;
+}
+.footer__container{
+    padding-top: 448px;
+    width: 1600px;
+    height: 578px;
+    margin: 0 auto;
+}
+.columns__container{
+    width: 1467px;
+    height: 407px;
+    margin-bottom: 79px;
+    display: flex;
+}
+.column1__container{
+    width: 422px;
+    height: 407px;
+    margin-right: 167px;
+}
+.column2__container{
+    width: 418px;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 174px;
+    filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+}
+.column3__container{
+    width: 285px;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+}
+.column__title{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.column__text{
+    width: 418px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.column__share{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.column__share:hover{
+    color: wheat;
+}
+.column__email{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.column3__text{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.copyright__text{
+    margin: 65px 456px 0px 456px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
